@@ -4,7 +4,7 @@ import { defineProps } from "vue";
 defineProps<{
   title: string;
   image: string;
-  price: string;
+  prices: string;
   tallas: {
     nombre: string
   }[];
@@ -29,7 +29,7 @@ defineProps<{
       <div class="w-1/2 p-4 flex flex-col gap-4">
         <div class="p-2 rounded bg-amber-200">
           <h2 class="text-2xl font-bold text-orange-600">Precio</h2>
-          <p class="text-gray-800 mt-1">{{ price }}</p>
+          <p class="text-gray-800 mt-1">{{ prices }}</p>
         </div>
 
         <div class="p-2 rounded bg-amber-200">
