@@ -110,7 +110,7 @@ const router = useRouter();
       <div
         class="italic font-medium bg-amber-200 px-2 py-0.5 rounded shadow-inner border-gray-900 m-2 text-center text-amber-800"
       >
-        <button @click="router.push(`/recipe/${id}`)">Ver Receta</button>
+        <button @click="router.push(`/recipe/${id}`)">Ver Recetas</button>
       </div>
     </div>
   </div>
